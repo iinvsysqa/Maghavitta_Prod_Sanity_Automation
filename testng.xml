@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="WebApplication" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Default test" verbose="2">
+     <packages>
+        <!-- Replace 'your.base.package' with your actual base package name -->
+        <package name="testcases" />
+    </packages>
+  </test> <!-- Default test -->
+</suite> <!-- Default suite -->
