@@ -15,6 +15,7 @@ public class CoursesPage extends GenericWrappers {
 
 	@FindBy(xpath = "(//div[@class='individual-course-card-container-video-details-button'])[1]")
 	private WebElement exploreBtn;
+	
 	@FindBy(xpath = "//div[text()='All Courses']")
 	private WebElement allCourseButton;
 

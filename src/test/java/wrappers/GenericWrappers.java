@@ -299,6 +299,7 @@ public class GenericWrappers {
 		try {
 			expWait(xpath);
 			String sText = xpath.getText();
+			System.out.println("Text in website : "+sText);
 			if (sText.trim().contains(text)) {
 				Reporter.reportStep(field +"contains "+ text , "PASS");
 				bReturn = true;
